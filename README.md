@@ -7,7 +7,7 @@ do.c 是一个单通道DO demo
 
 运行代码./test_dio 0 1    第一个0代表通道，第二个1代表打开通道 
                                                         
-DI_All.c 打开全部DI通道Demo 等待读取数据 DI=0 代表低电压L  DI_CH1 1 代表 通道1 来了一个高电压H   L: 0-2.2V  H: 2.2-35V
+DI_All.c 打开全部DI通道Demo 等待读取数据 DI=0 代表低电压L  DI_CH1 1 代表 通道1 来了一个高电压H   L: 0-1.5V  H: 5-24V
 
 #2023/2/16 更新的test_dio.c 包含了 DO DI 测试，注意都只写了4个DO DI通道。
 ![2023-02-16 14-20-30 的屏幕截图](https://user-images.githubusercontent.com/118422636/219284726-a58f1795-28d3-459f-959d-76fd7d059ab2.png) 
